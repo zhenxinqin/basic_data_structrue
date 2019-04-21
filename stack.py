@@ -33,6 +33,7 @@ if __name__ == '__main__':
 	stack1 = Stack()
 	stack1.push(1)
 	stack1.push(2)
+	print 'size : ',stack1.size()
 	stack1.push(3)
 	stack1.push(4)
 	stack1.push(5)
@@ -42,6 +43,7 @@ if __name__ == '__main__':
 	print stack1.pop()
 	print stack1.pop()
 	print stack1.pop()
+	print 'size ',stack1.size()
 	print stack1.peek()
 
 
